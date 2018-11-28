@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetsCare.PetsPage">
+    <ListView x:Name="petsListView"
+              GroupDisplayBinding="{Binding Title}"
+              GroupShortNameBinding="{Binding Name}"
+              IsGroupingEnabled="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Image}"/>
+                            <Label Text="{Binding Name}" FontSize="Medium"/>
+                        </StackLayout>
+                        <Label Text="{Binding Breed}" FontSize="Small"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
