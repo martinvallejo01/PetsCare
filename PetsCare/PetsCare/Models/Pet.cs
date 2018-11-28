@@ -17,8 +17,10 @@ namespace PetsCare.Models
         public String Comments { get; set; }
 
         public Clinic Clinic { get; set; }
+        public int ClinicID { get; set; }
 
-        // public Veterinarian Vet { get; set }
+        public Veterinarian Veterinarian { get; set; }
+        public int VeterinarianID { get; set; }
     }
 
     public enum Gender { Male = 0, Female = 1}
