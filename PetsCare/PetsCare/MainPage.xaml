@@ -3,5 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PetsCare"
              x:Class="PetsCare.MainPage">
+    <local:WeekPage Title="Week Events" Icon=""/>
+    <local:CalendarPage Title="Calendar" Icon=""/>
 
 </TabbedPage>
