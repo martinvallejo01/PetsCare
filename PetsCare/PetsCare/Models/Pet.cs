@@ -6,6 +6,7 @@ namespace PetsCare.Models
 {
     public class Pet
     {
+
         public int PetID { get; set; }
         public String Name { get; set; }
         public String Breed { get; set; }
@@ -15,7 +16,8 @@ namespace PetsCare.Models
         public String AllergiesAndIllness { get; set; }
         public String Comments { get; set; }
 
-        // public Clinic Clinic { get; set; }
+        public Clinic Clinic { get; set; }
+
         // public Veterinarian Vet { get; set }
     }
 
