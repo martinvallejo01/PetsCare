@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PetsCare.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,13 @@ namespace PetsCare
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class PetMasterDetail : ContentPage
 	{
-		public PetMasterDetail ()
-		{
-			InitializeComponent ();
-		}
+        public PetMasterDetail(Pet pet)
+        {
+            if (pet == null)
+                throw new ArgumentNullException();
+
+            BindingContext = pet;
+            InitializeComponent();
+        }
 	}
 }

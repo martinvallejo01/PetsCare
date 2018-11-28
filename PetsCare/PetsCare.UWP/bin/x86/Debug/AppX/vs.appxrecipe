@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-28T17:02:31.939</Modified>
+      <Modified>2018-11-28T20:52:32.726</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\PetsCare.UWP.exe">
       <PackagePath>entrypoint\PetsCare.UWP.exe</PackagePath>
-      <Modified>2018-11-28T17:02:15.663</Modified>
+      <Modified>2018-11-28T20:52:32.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -712,7 +712,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\bin\Debug\netstandard2.0\PetsCare.dll">
       <PackagePath>PetsCare.dll</PackagePath>
-      <Modified>2018-11-28T17:02:03.595</Modified>
+      <Modified>2018-11-28T20:52:28.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -859,11 +859,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-28T17:02:14.687</Modified>
+      <Modified>2018-11-28T20:52:32.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-28T17:02:14.688</Modified>
+      <Modified>2018-11-28T20:52:32.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -875,11 +875,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-11-28T17:02:27.832</Modified>
+      <Modified>2018-11-28T20:44:41.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\Core\PetsCare.UWP.exe">
       <PackagePath>PetsCare.UWP.exe</PackagePath>
-      <Modified>2018-11-28T17:02:31.847</Modified>
+      <Modified>2018-11-28T20:52:32.721</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
