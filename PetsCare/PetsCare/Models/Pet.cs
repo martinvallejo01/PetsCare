@@ -21,6 +21,8 @@ namespace PetsCare.Models
 
         public Veterinarian Veterinarian { get; set; }
         public int VeterinarianID { get; set; }
+
+        public IList<Event> Events { get; set; }
     }
 
     public enum Gender { Male = 0, Female = 1}
