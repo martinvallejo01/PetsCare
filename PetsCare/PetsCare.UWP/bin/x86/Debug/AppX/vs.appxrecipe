@@ -855,7 +855,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\PetsCare.UWP.xr.xml">
       <PackagePath>PetsCare.UWP.xr.xml</PackagePath>
-      <Modified>2018-11-28T17:02:14.455</Modified>
+      <Modified>2018-11-28T17:02:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>

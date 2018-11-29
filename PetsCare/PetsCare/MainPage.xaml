@@ -22,4 +22,10 @@
         </x:Arguments>
     </NavigationPage>
 
+    <NavigationPage Title="Clinics" Icon="">
+        <x:Arguments>
+            <local:ClinicsPage/>
+        </x:Arguments>
+    </NavigationPage>
+
 </TabbedPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetsCare.VeterinarianDetailPage"
+             Padding="20"
+             Title="{Binding Name}">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Label Text="Name: " Grid.Row="0" Grid.Column="0"/>
+                <Label Text="{Binding Name}" FontSize="Medium" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Address: " Grid.Row="1" Grid.Column="0"/>
+                <Label Text="{Binding Address}" FontSize="Medium" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Phone: " Grid.Row="2" Grid.Column="0"/>
+                <Label Text="{Binding Phone}" FontSize="Medium" Grid.Row="2" Grid.Column="1"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

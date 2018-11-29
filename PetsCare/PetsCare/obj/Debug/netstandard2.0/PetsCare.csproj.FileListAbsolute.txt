@@ -14,3 +14,7 @@ C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - J
 C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\obj\Debug\netstandard2.0\PetsCare.dll
 C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\obj\Debug\netstandard2.0\PetsCare.pdb
 C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\obj\Debug\netstandard2.0\PetsPage.xaml.g.cs
+C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\obj\Debug\netstandard2.0\ClinicDetailPage.xaml.g.cs
+C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\obj\Debug\netstandard2.0\ClinicsPage.xaml.g.cs
+C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\obj\Debug\netstandard2.0\VeterinarianDetailPage.xaml.g.cs
+C:\Users\marti\Dropbox\USFQ\2018-2019\CMP 0215 Desarrollo de Apl. de Oficina - Jorge Flores Moyano\PetsCare\PetsCare\PetsCare\obj\Debug\netstandard2.0\VeterinariansPage.xaml.g.cs
