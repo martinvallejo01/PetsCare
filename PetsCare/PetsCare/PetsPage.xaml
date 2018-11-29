@@ -4,11 +4,17 @@
              x:Class="PetsCare.PetsPage"
              Padding="0,20,0,0"
              Title="Pets">
-    <ListView x:Name="petsListView" ItemSelected="PetsListView_ItemSelectedAsync">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Name}" Detail="Pet"></TextCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+    <StackLayout>
+        <StackLayout>
+            <Button Text="Add" HorizontalOptions="End" Clicked="AddButton_Clicked"></Button>
+        </StackLayout>
+        <SearchBar Placeholder="Search..." TextChanged="SearchBar_TextChanged"/>
+        <ListView x:Name="petsListView" ItemSelected="PetsListView_ItemSelectedAsync">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="Pet"></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

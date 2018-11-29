@@ -16,12 +16,20 @@ namespace PetsCare
 		public PetsPage ()
 		{
 			InitializeComponent ();
+            petsListView.ItemsSource = PetsItemSource();
+		}
+
+        IEnumerable<Pet> PetsItemSource(string petSearch = null)
+        {
             List<Pet> pets = new List<Pet>();
             pets.Add(new Pet { Name = "Simba" });
             pets.Add(new Pet { Name = "Aslan" });
-            petsListView.ItemsSource = pets;
 
-		}
+            if (String.IsNullOrEmpty(petSearch))
+                return pets.OrderBy(p => p.Name);
+
+            return pets.Where(p => p.Name.StartsWith(petSearch));
+        }
 
         private async void PetsListView_ItemSelectedAsync(object sender, SelectedItemChangedEventArgs e)
         {
@@ -30,6 +38,16 @@ namespace PetsCare
                 return;
             await Navigation.PushAsync(new PetMasterDetail(pet));
             petsListView.SelectedItem = null;
+        }
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            petsListView.ItemsSource = PetsItemSource(e.NewTextValue);
+        }
+
+        private void AddButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CreateAndEditPetPage());
         }
     }
 }

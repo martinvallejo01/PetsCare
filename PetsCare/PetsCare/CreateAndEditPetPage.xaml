@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetsCare.CreateAndEditPetPage"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             Padding="20"
+             Title="Create Pet">
+    <StackLayout>
+        <StackLayout>
+            <Button Text="Save" HorizontalOptions="End" Clicked="Save_Button_Clicked"></Button>
+        </StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Name: " Grid.Column="0" Grid.Row="0"/>
+            <Label Text="Breed: " Grid.Column="0" Grid.Row="1"/>
+            <Label Text="Colors: " Grid.Column="0" Grid.Row="2"/>
+            <Label Text="Birth Date: " Grid.Column="0" Grid.Row="3"/>
+            <Label Text="Gender: " Grid.Column="0" Grid.Row="4"/>
+            <Label Text="Coments: " Grid.Column="0" Grid.Row="5"/>
+            <Label Text="Allergies and Illness: " Grid.Column="0" Grid.Row="6"/>
+
+            <Entry x:Name="nameEntry" Placeholder="Name" Grid.Column="1" Grid.Row="0"/>
+            <Entry x:Name="breedEntry" Placeholder="Breed" Grid.Column="1" Grid.Row="1"/>
+            <Entry x:Name="colorsEntry" Placeholder="Colors" Grid.Column="1" Grid.Row="2"/>
+
+            <DatePicker x:Name="birthDatePicker" Format="d MMM yyyy" Grid.Column="1" Grid.Row="3" />
+            <Picker x:Name ="genderPicker" Title="Gender" Grid.Column="1" Grid.Row="4">
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Entry x:Name="commentsEntry" Placeholder="Comments" Grid.Column="1" Grid.Row="5"/>
+            <Entry x:Name="illnessEntry" Placeholder="Alle Ill" Grid.Column="1" Grid.Row="6"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
